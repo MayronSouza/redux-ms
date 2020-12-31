@@ -1,9 +1,16 @@
 import React from 'react';
+import { Provider } from 'react-redux';
 
-const App: React.FC = () => (
-  <div className="App">
-    <h1>Hello World</h1>
-  </div>
-);
+import store from './store';
+
+import Catalog from './components/Catalog';
+
+const App: React.FC = () => {
+  return (
+    <Provider store={store}>
+      <Catalog />
+    </Provider>
+  );
+};
 
 export default App;
