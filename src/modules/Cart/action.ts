@@ -1,6 +1,6 @@
 import { IProduct } from './types';
 
-interface IProductToCart {
+export interface IProductToCart {
   type: string;
   payload: {};
 }

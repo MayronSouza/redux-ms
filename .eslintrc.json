@@ -36,6 +36,7 @@
       "arrow-parens":"off",
       "react/jsx-one-expression-per-line": "off",
       "prettier/prettier": "error",
+      "no-shadow":"off",
       "import/extensions": [
         "error",
         "ignorePackages",

@@ -5,10 +5,10 @@ export interface IProduct {
 }
 
 export interface ICartItem {
-  products: {};
+  product: IProduct;
   quantity: number;
 }
 
 export interface ICartState {
-  item: ICartItem[];
+  items: ICartItem[];
 }
