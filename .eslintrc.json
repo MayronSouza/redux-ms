@@ -34,6 +34,7 @@
       "@typescript-eslint/ban-types": "off",
       "arrow-body-style":"off",
       "arrow-parens":"off",
+      "react/jsx-one-expression-per-line": "off",
       "prettier/prettier": "error",
       "import/extensions": [
         "error",
