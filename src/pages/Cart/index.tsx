@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { ICartItem } from '../../modules/Cart/types';
+import { ICartItem } from '../../store/modules/Cart/types';
 import { IState } from '../../store';
 
 const Cart: React.FC = () => {
