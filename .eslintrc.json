@@ -37,6 +37,8 @@
       "react/jsx-one-expression-per-line": "off",
       "prettier/prettier": "error",
       "no-shadow":"off",
+      "no-plusplus": "off",
+      "no-param-reassign":"off",
       "import/extensions": [
         "error",
         "ignorePackages",
