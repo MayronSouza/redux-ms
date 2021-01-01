@@ -2,7 +2,9 @@ import { IProduct } from './types';
 
 export interface IProductToCart {
   type: string;
-  payload: {};
+  payload: {
+    product: IProduct;
+  };
 }
 
 export function addProductToCart(product: IProduct): IProductToCart {
