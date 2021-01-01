@@ -38,6 +38,7 @@
       "prettier/prettier": "error",
       "no-shadow":"off",
       "no-plusplus": "off",
+      "no-undef":"off",
       "no-param-reassign":"off",
       "react/prop-types": "off",
       "import/extensions": [
